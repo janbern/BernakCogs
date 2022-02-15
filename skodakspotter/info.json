@@ -1,0 +1,21 @@
+{
+	"author": [
+		"janbern"
+	],
+	"description": "Checks Stegomrd's activity feed on Apollo WoW project.",
+	"disabled": false,
+	"end_user_data_statement": "This cog does not persistently store data or metadata about users.",
+	"hidden": false,
+	"install_msg": "Now you can see what our Sparta fun is doing in the world of Azeroth!",
+	"name": "SkodakSpotter",
+	"required_cogs": {},
+	"requirements": [
+		"requests",
+		"lxml"
+	],
+	"short": "Checks Stegomrd's activity feed on Apollo WoW project.",
+	"tags": [
+        "Custom"
+    ],
+	"type": "COG"
+}
