@@ -4,7 +4,7 @@ class skodakspotter(commands.Cog):
     """Je Stegomrd online?"""
 
     def __init__(self, bot):
-		self.bot = bot
+	self.bot = bot
 
     @commands.command()
     async def skodak(self, ctx):
@@ -18,4 +18,7 @@ class skodakspotter(commands.Cog):
         soup = BeautifulSoup(page.text, 'xml')
         timestamp = soup.find('character')
         
+	if timestap != None:
 		await ctx.send(timestamp['lastModified'])
+	else:
+		await ctx.send("Sorry, can't connect to Twinstar rn")
