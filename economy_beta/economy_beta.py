@@ -9,7 +9,7 @@ from redbot.core import commands
 class Economy(commands.Cog):
 	def __init__(self,bot):
 		self.bot = bot
-		self.col=MongoClient("mongodb+srv://jan:vZj9Egavqwpyux4Z@cluster0.m7b6l.mongodb.net/")
+		self.col=MongoClient("MONGO URI")
 		self.d=self.col.debilek
 
 	def parser(self,x):
