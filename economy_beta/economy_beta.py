@@ -1,3 +1,4 @@
+''' Creds to P3p1d/debilek-bot/blob/master/cogs/Music.py '''
 import random
 import discord
 import sys
