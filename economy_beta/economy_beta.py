@@ -1,4 +1,4 @@
-''' Creds to P3p1d/debilek-bot/blob/master/cogs/Music.py '''
+''' Creds to github.com/P3p1d/debilek-bot/blob/master/cogs/economy_rewrite.py '''
 import random
 import discord
 import sys
